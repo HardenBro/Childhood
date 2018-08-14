@@ -1,0 +1,192 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*html,body{
+	height: 100%;
+}*/
+
+.dh-content{
+	position: absolute;
+	height: 100%;
+	width:100%;
+	/*overflow: hidden;*/
+}
+
+.dhpage{
+	position: relative;
+	overflow: hidden;
+}
+/*page1*/
+.dhpage .page1{
+	height: 100%;
+	width:100%;
+	/*background: lightcyan;*/
+	/*display: none;*/
+	
+}
+.dhpage .page1-line{
+	width: 100%;
+	height: 100%;
+}
+
+.dhpage .page1-balloon {
+    width: 18%;
+    right: 27%;
+    top: 12%;
+    animation: rotate 3s linear infinite;
+}
+/*帆船*/
+.dhpage .page1-sailboat {
+    top: 61%;
+    left: -30%;
+    width: 20%;
+    animation: gr 2s ease infinite;
+}
+/*飞机*/
+.dhpage .page1-flight {
+    /*top: 62%;*/
+    bottom: -20%;
+    width: 22%;
+    left: 68%;
+    animation: gr 2s ease infinite;
+}
+.dhpage .page1-childhood {
+    width: 70%;
+   	/*width: 0%;*/
+    top: 31%;
+    left: 15%;
+	display: none;
+}
+.dhpage .page1-云 {
+	width: 100%;
+    top: 24%;
+    animation: zooming 4s infinite;
+}
+
+
+@keyframes zooming{
+	0%{transform: scale(1);}
+	50%{transform: scale(1.1);}
+	100%{transform: scale(1);}
+}
+
+/*//旋转*/
+@keyframes rotate{
+	0%{transform: rotate(0deg);}
+	25%{transform: rotate(15deg);}
+	50%{transform: rotate(0deg);}
+	75%{transform: rotate(-15deg);}
+	100%{transform: rotate(0deg);}
+}
+/*第一页结束*/
+
+/*第二页*/
+.dhpage .page2{
+	background: red;
+
+
+}
+.dhpage .page2-sky {
+    /*width: 88%;*/
+   	width: 0;
+    top: 38%;
+    border-radius: 50%;
+    left: -1%;
+}
+.dhpage .page2-xiaoshihou {
+    width: 42%;
+    top: 8%;
+    left: 2%;
+    display: none;
+    z-index: 10;
+}
+.dhpage .page2-tianlan {
+    width: 54%;
+	top: 82%;
+    left: 40%;
+    display: none;
+    z-index: 10;
+}
+
+.dhpage .page2-border {
+    width: 118%;
+    top: 31%;
+    height: 49%;
+    left: -17%;
+    display: none;
+}
+
+.dhpage .page2-bird {
+    width: 43%;
+    right: 17%;
+    top: 18%;
+}
+
+.dhpage .page2-leaf1 {
+    width: 37%;
+    left: 68%;
+    top: -1%;
+    animation: rotate 4s linear infinite;
+}
+.dhpage .page2-leaf2 {
+    width: 37%;
+    left: -1%;
+    top: 81%;
+    animation: rotate 4s linear infinite;
+}
+.dhpage .page2-yun1 {
+    width: 28%;
+    top: 15%;
+    z-index: -1;
+    animation: move1 6s linear infinite;
+}
+@keyframes move1{
+	0% {left:0px;}
+	50% {left:1000px;}
+	100%{left:0px;}
+}
+.dhpage .page2-yun2 {
+    width: 20%;
+    top: 6%;
+    left: 58%;
+    z-index: -1;
+    animation: move2 4s linear infinite;
+}
+@keyframes move2{
+	0% {left:58%;}
+	50% {left:88%;}
+	100%{left:58%;}
+}
+.dhpage .page2-yun3 {
+    width: 20%;
+    left: 28%;
+    top: 27%;
+    z-index: -1;
+    animation: move3 6s linear infinite;
+}
+@keyframes move3{
+	0% {left:18%;}
+	50% {left:78%;}
+	100%{left:18%;}
+}
+.dhpage .page2-yun4 {
+    width: 24%;
+    top: 20%;
+    left: 59%;
+    z-index: -1;
+    animation: move4 10s linear infinite;
+}
+@keyframes move4{
+	0% {left:4%;}
+	50% {left:70%;}
+	100%{left:4%;}
+}
+
+
+
+img{
+	position: absolute;
+}
+
+/*第二页结束*/

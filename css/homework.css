@@ -1,0 +1,205 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#content
+{
+	position: absolute;
+	overflow: hidden;
+}
+
+.szh_sec1{
+	background: black;
+}
+
+.szh_sec2{
+	background: black;
+}
+.szh_sec3{
+	background: black;
+}
+.szh_sec4{
+	background: black;
+}
+.szh_sec5{
+	background: black;
+}
+.szh_sec6{
+	background: lightblue;
+}
+.szh_sec7{
+	background:#FFFFCC;
+}
+.szh_sec8{
+	background: black;
+}
+.szh_sec9{
+	background: black;
+}
+.szh_sec10{
+	background: black;
+}
+.szh_sec11{
+	background: black;
+}
+.szh_sec12{
+	background: black;
+}
+.szh_sec6 img:nth-child(5){
+	width: 70%;
+    left: 40%;
+    top: 20%;
+    display: none;
+    z-index: 1;
+
+}
+.szh_sec6 img:nth-child(6){
+	    width: 100%;
+		display: none;
+}
+.szh_sec6 img:nth-child(7){
+	  width: 40%;
+    bottom: 0%;
+    left: 20%;
+    position: absolute;
+    z-index: 1;
+ 
+}
+.szh_sec6 img:nth-child(8){
+	    width: 100%;
+	    height: 100%;
+		display: none;
+}
+.szh_img5{
+	    width: 100%;
+    bottom: -100%;
+    left: 5%;
+    position: absolute;
+}
+.big{
+	animation: szh_zooming 4s infinite;
+}
+@keyframes szh_zooming{
+	0%{transform: scale(1);}
+	50%{transform: scale(1.2);}
+	100%{transform: scale(1);}
+}
+@keyframes move{
+	from{
+		bottom: -100%;
+	}
+	to{
+		bottom: 40%;
+	}
+}
+@keyframes szh_rotate{
+	from{transform:rotate(0deg)}
+	to{transform: rotate(360deg)}
+}
+img{
+	position: absolute;
+}
+.szh_sec{
+	position: relative;
+	    transition: all 4s;
+
+}
+#szh_text1 {
+    position: absolute;
+    display: none;
+    top: 5%;
+    left: -3%;
+    width: 65%;
+}
+#szh_text2 {
+    position: absolute;
+    display: none;
+    top: 12%;
+    left: -5%;
+    width: 110%;
+}
+#szh_text3 {
+    position: absolute;
+    display: none;
+    top: 20%;
+    left: 8%;
+      width: 35%;
+
+}
+#szh_text4 {
+    left: 7%;
+    position: absolute;
+    display: none;
+    top: 28%;
+    width: 35%;
+}
+#szh_img6{
+	position: absolute;
+	left: -200%;
+	right: 0;
+	margin:auto ;
+	bottom: 0;
+	width: 100%;
+}
+#szh_img7{
+	position: absolute;
+	left: -200%;
+	right: 0;
+	margin:auto ;
+	bottom: 0;
+	width: 100%;
+
+}
+#szh_img8{
+	position: absolute;
+	left: -200%;
+	right: 0;
+	margin:auto ;
+	bottom: 0;
+	width: 100%;
+
+}
+#szh_img9{
+	position: absolute;
+	left: -200%;
+	right: 0;
+	margin:auto ;
+	bottom: 0;
+	width: 100%;
+}
+#szh_img10{
+	position: absolute;
+	left: -200%;
+	right: 0;
+	margin:auto ;
+	bottom: 0;
+	width: 100%;
+}
+#szh_img12{
+    position: absolute;
+    left: 60%;
+    top: 8%;
+    width: 30%;
+	animation:szh_rotate 4s linear infinite  ;
+}
+#szh_txt5 {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 90%;
+    display: none;
+}
+#szh_txt6 {
+    position: absolute;
+    top: 10%;
+    width: 30%;
+    left: 6%;
+	display: none;
+}
+#szh_txt7 {
+    position: absolute;
+    top: 20%;
+    width: 42%;
+    left: 5%;
+    display: none;
+}

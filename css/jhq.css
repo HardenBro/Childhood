@@ -1,0 +1,231 @@
+
+.page{
+	position: relative;
+	overflow: hidden;
+}
+
+img{
+	position: absolute;
+}
+/*第十一页*/
+.jhq_11{
+	background: skyblue;
+	width: 100%;
+	height: 100%;
+}
+
+.jhq_11_build{
+	width: 100%;
+	height: 45%;
+	bottom: 0;
+}
+.jhq_11_astronaut{
+	width: 20%;
+    height: 10%;
+    left: 2%;
+    bottom: 45%;
+}
+.jhq_11_aid{
+	top: 30%;
+    left: 13%;
+    width: 14%;
+    height: 8%;
+}
+.jhq_11_kid{
+	width: 25%;
+    height: 13%;
+    left: 37%;
+    bottom: 45%;
+}
+.jhq_11_ballon{
+	width: 33%;
+    height: 17%;
+    left: 30%;
+    bottom: 35%;
+}
+.jhq_11_machine{
+	bottom: 50%;
+    left: 70%;
+    height: 8%;
+}
+
+.jhq_11_map{
+	height: 11%;
+    left: 22%;
+    top: 8%;
+    width: 24%;
+}
+.jhq_11_pen {
+	right: 10%;
+    top: 13%;
+    width: 17%;
+    height: 12%;
+}
+.jhq_11_math{
+	right: 35%;
+    top: 30%;
+    width: 15%;
+}
+
+.jhq_11_txt{
+	width: 100%;
+    height: 5%;
+    top: 24%;
+    display: none;
+}
+
+.anim_zoom{
+	animation: zooming1 4s infinite;
+}
+.anim_zoom1{
+	animation: zooming2 2s infinite;
+}
+.anim_rotate{
+	animation: rotate1 4s infinite;
+}
+.anim_rotate1{
+	animation: rotate2 2s infinite;
+}
+@keyframes zooming1{
+	0%{transform: scale(0.9);}
+	50%{transform: scale(1.2);}
+	100%{transform: scale(0.9);}
+}
+
+@keyframes zooming2{
+	0%{transform: scale(1.1);}
+	50%{transform: scale(0.9);}
+	100%{transform: scale(1.1);}
+}
+
+@keyframes rotate1{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+@keyframes rotate2{
+	0%{transform: rotate(0deg);}
+	25%{transform: rotate(-30deg);}
+	50%{transform: rotate(0deg);}
+	75%{transform: rotate(30deg);}
+	100%{transform: rotate(0deg);}
+}
+.jhq_12{
+	background: white;
+}
+.jhq_12_bg{
+	width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.jhq_12_clouds1{
+	width: 17%;
+    top: 10%;
+    left: 2%;
+}
+
+.jhq_12_clouds2{
+	top: 6%;
+    left: 10%;
+}
+.jhq_12_clip1{
+	top: 2%;
+}
+
+.jhq_12_photo1{
+	top: 24%;
+    left: 11%;
+    width: 40%;
+}
+
+.jhq_12_photo3{
+	top: 18%;
+    left: 54%;
+    width: 38%;
+}
+.jhq_12_photo4{
+	bottom: 18%;
+    height: 20%;
+    width: 23%;
+    left: 4%;
+}
+.jhq_12_photo5{
+	bottom: 17%;
+    left: 32%;
+}
+.jhq_12_photo6{
+	bottom: 21%;
+    width: 26%;
+    right: 3%;
+}
+.jhq_12_clip2{
+	top: 53%;
+}
+.jhq_12_ballon{
+	right: 9%;
+    width: 10%;
+    top: 1%;
+}
+.jhq_12_star{
+	width: 100%;
+    height: 100%;
+}
+.jhq_12_leaf{
+	left: 2%;
+    bottom: 2%;
+    width: 0%;
+    animation: zooming1 4s infinite;
+}
+.jhq_12_plane{
+	width: 60%;
+    top: 10%;
+}
+.jhq_12_txt{
+	height: 6%;
+    top: 48%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.ph_rotate{
+	animation: rotate3 4s infinite;
+}
+@keyframes rotate3{
+	0%{transform: rotate(0deg);}
+	25%{transform: rotate(10deg);}
+	50%{transform: rotate(0deg);}
+	75%{transform: rotate(-10deg);}
+	100%{transform: rotate(0deg);}
+}
+.jhq_1{
+	background: #111111;
+}
+.jhq_2{
+	background: pink;
+}
+.jhq_3{
+	background: #111111;
+}
+.jhq_4{
+	background: pink;
+}
+.jhq_5{
+	background: #111111;
+}
+.jhq_6{
+	background: pink;
+}
+.jhq_7{
+	background: #111111;
+}
+.jhq_8{
+	background: pink;
+}
+.jhq_9{
+	background: #111111;
+}
+.jhq_10{
+	background: pink;
+}
+
+
